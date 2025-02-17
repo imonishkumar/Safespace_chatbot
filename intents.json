@@ -1,0 +1,442 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Is anyone there?",
+          "Hey",
+          "Good day",
+          "Greetings"
+        ],
+        "responses": [
+          "Hello! How can I assist you today regarding mental health support and the SAFESPACE platform?"
+        ]
+      },
+      {
+        "tag": "mental_health_support",
+        "patterns": [
+          "What is mental health support?",
+          "How does this platform offer mental health support?",
+          "Tell me about mental health assistance.",
+          "How can I receive help with mental health issues?"
+        ],
+        "responses": [
+          "SAFESPACE provides anonymous and secure emotional support through AI-driven techniques, ensuring users have access to mental health support tailored to their needs."
+        ]
+      },
+      {
+        "tag": "anonymity",
+        "patterns": [
+          "How is my identity protected?",
+          "Is this platform anonymous?",
+          "Will my data remain confidential?",
+          "How does SAFESPACE ensure anonymity?"
+        ],
+        "responses": [
+          "SAFESPACE ensures your anonymity by implementing advanced privacy techniques such as data anonymization, end-to-end encryption, and federated learning."
+        ]
+      },
+      {
+        "tag": "nlp",
+        "patterns": [
+          "What is NLP?",
+          "Explain Natural Language Processing.",
+          "How does NLP help in this platform?",
+          "What does NLP do here?"
+        ],
+        "responses": [
+          "Natural Language Processing (NLP) in SAFESPACE helps analyze and understand user messages, enabling personalized and context-sensitive responses to emotional states."
+        ]
+      },
+      {
+        "tag": "sentiment_analysis",
+        "patterns": [
+          "What is sentiment analysis?",
+          "How does sentiment analysis work here?",
+          "Explain sentiment detection.",
+          "How does SAFESPACE detect emotions?"
+        ],
+        "responses": [
+          "Sentiment analysis in SAFESPACE uses AI models to detect users' emotional tones, helping the platform respond appropriately to feelings like sadness, frustration, or distress."
+        ]
+      },
+      {
+        "tag": "privacy_techniques",
+        "patterns": [
+          "How is privacy protected?",
+          "What privacy techniques are used?",
+          "How does SAFESPACE secure my data?",
+          "Explain privacy preservation in SAFESPACE."
+        ],
+        "responses": [
+          "SAFESPACE uses privacy-preserving techniques like differential privacy, data anonymization, and federated learning to ensure user data remains secure and confidential."
+        ]
+      },
+      {
+        "tag": "crisis_detection",
+        "patterns": [
+          "What is crisis detection?",
+          "How does crisis detection work?",
+          "How does the platform respond to crises?",
+          "What happens if someone is in distress?"
+        ],
+        "responses": [
+          "SAFESPACE's crisis detection uses algorithms to recognize distress signals in user messages, triggering immediate alerts to connect users with necessary support when required."
+        ]
+      },
+      {
+        "tag": "peer_matching",
+        "patterns": [
+          "What is peer matching?",
+          "How does SAFESPACE match users?",
+          "Can I connect with peers here?",
+          "Explain the peer matching system."
+        ],
+        "responses": [
+          "SAFESPACE uses a recommendation engine to match users with suitable peers or counselors, enabling users to receive advice and support from individuals with relevant experiences."
+        ]
+      },
+      {
+        "tag": "empathy_in_ai",
+        "patterns": [
+          "What is empathetic AI?",
+          "How does the platform respond empathetically?",
+          "Explain empathy in AI.",
+          "Does SAFESPACE offer empathetic responses?"
+        ],
+        "responses": [
+          "Empathetic AI in SAFESPACE enables the platform to generate responses that are understanding and non-judgmental, using models fine-tuned for compassionate interactions."
+        ]
+      },
+      {
+        "tag": "recommendation_engine",
+        "patterns": [
+          "What is the recommendation engine?",
+          "How does the recommendation engine work?",
+          "Can you explain the recommendation system?",
+          "How are counselors recommended?"
+        ],
+        "responses": [
+          "The recommendation engine in SAFESPACE matches users with relevant counselors or peers based on user needs, using clustering algorithms and collaborative filtering."
+        ]
+      },
+      {
+        "tag": "federated_learning",
+        "patterns": [
+          "What is federated learning?",
+          "How does federated learning work here?",
+          "Explain federated learning.",
+          "Is federated learning used for privacy?"
+        ],
+        "responses": [
+          "Federated learning allows AI models in SAFESPACE to train on user data locally, keeping the data on user devices and reducing privacy risks associated with central data storage."
+        ]
+      },
+      {
+        "tag": "data_security",
+        "patterns": [
+          "How is data secured?",
+          "Explain data security measures.",
+          "What data security methods are used?",
+          "How does SAFESPACE protect my data?"
+        ],
+        "responses": [
+          "SAFESPACE uses end-to-end encryption, token-based authentication, and secure storage protocols to safeguard user data and maintain confidentiality."
+        ]
+      },
+      {
+        "tag": "introduction",
+        "patterns": [
+          "What is SAFESPACE?",
+          "Tell me about SAFESPACE.",
+          "What is the purpose of SAFESPACE?",
+          "Explain SAFESPACE in brief."
+        ],
+        "responses": [
+          "SAFESPACE is an AI-driven platform offering anonymous, secure emotional support and mental health counseling using advanced AI and privacy techniques."
+        ]
+      },
+      {
+        "tag": "intent_detection",
+        "patterns": [
+          "What is intent detection?",
+          "Explain intent classification.",
+          "How does SAFESPACE understand my intent?",
+          "What is the purpose of intent detection?"
+        ],
+        "responses": [
+          "Intent detection in SAFESPACE allows the platform to identify the user's purpose, like seeking advice or crisis support, and respond accordingly."
+        ]
+      },
+      {
+        "tag": "emotional_support",
+        "patterns": [
+          "How does SAFESPACE provide emotional support?",
+          "What kind of emotional support is offered?",
+          "Explain the support system here.",
+          "Is there emotional assistance available?"
+        ],
+        "responses": [
+          "SAFESPACE offers personalized emotional support through AI-driven responses, designed to be compassionate and relevant to the user's mental and emotional state."
+        ]
+      },
+      {
+        "tag": "recommendation_techniques",
+        "patterns": [
+          "How are recommendations made?",
+          "Explain recommendation techniques.",
+          "What recommendation methods are used?",
+          "How are counselors or peers selected for me?"
+        ],
+        "responses": [
+          "SAFESPACE uses clustering and collaborative filtering to recommend the best peer or counselor matches based on user needs and preferences."
+        ]
+      },
+      {
+        "tag": "data_anonymization",
+        "patterns": [
+          "What is data anonymization?",
+          "How does data anonymization work?",
+          "Explain data masking techniques.",
+          "How is data anonymized here?"
+        ],
+        "responses": [
+          "Data anonymization in SAFESPACE uses techniques like Named Entity Recognition to mask sensitive information, ensuring that user identities are protected."
+        ]
+      },
+      {
+        "tag": "crisis_intervention",
+        "patterns": [
+          "What is crisis intervention?",
+          "How does crisis intervention work?",
+          "Explain crisis intervention here.",
+          "What happens during a crisis on this platform?"
+        ],
+        "responses": [
+          "SAFESPACE uses algorithms to detect signs of distress and escalate high-risk situations, providing real-time intervention options and professional support."
+        ]
+      },
+      {
+        "tag": "feedback_system",
+        "patterns": [
+          "Can I give feedback on responses?",
+          "How does the feedback system work?",
+          "Can I rate the responses?",
+          "Explain user feedback in SAFESPACE."
+        ],
+        "responses": [
+          "SAFESPACE allows users to provide feedback on responses, which helps in training reinforcement models to improve the platform's response quality over time."
+        ]
+      },
+      {
+        "tag": "community_support",
+        "patterns": [
+          "Can I connect with others?",
+          "What community support is available?",
+          "How does the platform enable peer support?",
+          "Explain community support here."
+        ],
+        "responses": [
+          "SAFESPACE fosters a community where users can connect anonymously with peers facing similar challenges, providing a supportive and understanding environment."
+        ]
+      },
+
+      {
+        "tag": "stress_feelings",
+        "patterns": [
+          "I feel so stressed.",
+          "I'm overwhelmed.",
+          "Life is just too much right now.",
+          "I'm under a lot of pressure.",
+          "I don't know if I can handle this stress."
+        ],
+        "responses": [
+          "I'm sorry to hear that you're feeling this way. Stress can be really overwhelming, but taking things one step at a time might help. Talking with someone about what's causing your stress could be a helpful first step."
+        ]
+      },
+      {
+        "tag": "feeling_hopeless",
+        "patterns": [
+          "I don't know if I can keep going.",
+          "I feel so hopeless.",
+          "What's the point of trying?",
+          "I'm losing hope.",
+          "Nothing seems to matter anymore."
+        ],
+        "responses": [
+          "It sounds like you're going through a tough time, and I'm really sorry to hear that. Even when things seem dark, please remember you're not alone. There are people who want to help and listen to you."
+        ]
+      },
+      {
+        "tag": "depression",
+        "patterns": [
+          "I feel so down.",
+          "I'm feeling really low lately.",
+          "I think I might be depressed.",
+          "I can't shake this sadness.",
+          "I'm always sad and tired."
+        ],
+        "responses": [
+          "I'm really sorry you're feeling this way. Sometimes sadness can feel overwhelming, but reaching out to others can really help. Consider talking to someone you trust or a mental health professional who can support you."
+        ]
+      },
+      {
+        "tag": "anxiety",
+        "patterns": [
+          "I feel anxious all the time.",
+          "I'm always worrying about everything.",
+          "Anxiety is taking over my life.",
+          "I can't seem to relax.",
+          "My mind is constantly racing with worries."
+        ],
+        "responses": [
+          "Anxiety can be incredibly difficult to manage, but small steps like deep breathing or mindfulness exercises may help bring some relief. Talking about what's on your mind can also help ease those feelings."
+        ]
+      },
+      {
+        "tag": "loneliness",
+        "patterns": [
+          "I feel so alone.",
+          "No one understands me.",
+          "I don't have anyone to talk to.",
+          "I feel isolated.",
+          "There's no one who really cares about me."
+        ],
+        "responses": [
+          "I'm sorry to hear that you're feeling this way. Loneliness can be painful, but please know there are people who would care to listen and understand. Talking to a friend, family member, or support group could help."
+        ]
+      },
+      {
+        "tag": "self_doubt",
+        "patterns": [
+          "I don't feel good enough.",
+          "I doubt myself all the time.",
+          "I'm not sure I can do this.",
+          "I feel like a failure.",
+          "I don't have any confidence."
+        ],
+        "responses": [
+          "Many people struggle with self-doubt, and it's okay to feel this way sometimes. Remember, you're stronger and more capable than you may feel right now. Taking things one step at a time can make a big difference."
+        ]
+      },
+      {
+        "tag": "relationship_struggles",
+        "patterns": [
+          "I'm having issues in my relationship.",
+          "I don't feel supported by my partner.",
+          "My friendships feel distant.",
+          "I feel disconnected from people.",
+          "I'm struggling with my family."
+        ],
+        "responses": [
+          "Relationship struggles can be incredibly tough, and it's normal to feel affected by them. Sometimes, open communication or talking with a neutral person can bring clarity and support to these situations."
+        ]
+      },
+      {
+        "tag": "motivation_loss",
+        "patterns": [
+          "I don't have any motivation.",
+          "I can't bring myself to do anything.",
+          "I feel so unmotivated lately.",
+          "I just can't get started on things.",
+          "I'm struggling to find purpose."
+        ],
+        "responses": [
+          "Feeling unmotivated can be discouraging, but you're not alone in this. It can help to break things into smaller tasks or set small goals to build momentum. Give yourself permission to go at your own pace."
+        ]
+      },
+      {
+        "tag": "feeling_overwhelmed",
+        "patterns": [
+          "Everything feels too much right now.",
+          "I'm overwhelmed by everything.",
+          "I can't manage all of this.",
+          "There’s too much going on.",
+          "I feel like I'm drowning."
+        ],
+        "responses": [
+          "It sounds like you’re carrying a heavy load, and that’s not easy. Sometimes it helps to take a deep breath, step back, and focus on one small thing at a time. Reach out to others for support too—they can help lighten the load."
+        ]
+      },
+      {
+        "tag": "sleep_issues",
+        "patterns": [
+          "I can't sleep.",
+          "My sleep is really bad.",
+          "I keep waking up at night.",
+          "I have trouble falling asleep.",
+          "I'm always tired."
+        ],
+        "responses": [
+          "Sleep issues can be really frustrating and impact so much. Trying to establish a calming bedtime routine, avoiding screens before bed, and practicing relaxation techniques may help. Consider talking to a professional if it continues."
+        ]
+      },
+      {
+        "tag": "anger_management",
+        "patterns": [
+          "I'm so angry all the time.",
+          "I can't control my anger.",
+          "I feel like I'm going to explode.",
+          "I get irritated so easily.",
+          "I'm frustrated and don’t know why."
+        ],
+        "responses": [
+          "Anger can be a difficult emotion to handle, but expressing it in a healthy way can make a difference. Deep breathing, taking a short break, or talking about your feelings can help ease the frustration."
+        ]
+      },
+      {
+        "tag": "grief",
+        "patterns": [
+          "I'm struggling with loss.",
+          "I lost someone close to me.",
+          "Grief is overwhelming me.",
+          "I don't know how to move on.",
+          "I can't get over this loss."
+        ],
+        "responses": [
+          "Losing someone or something important is incredibly hard. Give yourself time to grieve, and know that it’s okay to feel however you need to. Seeking support from others can be comforting in times like this."
+        ]
+      },
+      {
+        "tag": "coping_methods",
+        "patterns": [
+          "How can I cope with these feelings?",
+          "Do you have tips for managing stress?",
+          "What are some ways to deal with anxiety?",
+          "How do I handle sadness?",
+          "Any advice on coping with loneliness?"
+        ],
+        "responses": [
+          "There are different ways to cope, like practicing mindfulness, talking to a supportive person, engaging in a hobby, or journaling your thoughts. Finding what works best for you is key, and don’t hesitate to reach out for support."
+        ]
+      },
+      {
+        "tag": "self_harm_thoughts",
+        "patterns": [
+          "I've been thinking about hurting myself.",
+          "Sometimes I just want to give up.",
+          "I don't want to go on anymore.",
+          "I feel like hurting myself.",
+          "I don’t see the point in living."
+        ],
+        "responses": [
+          "I'm so sorry you're feeling this way. Please remember you're not alone, and there are people who care about you and want to help. Talking to someone about what you're going through could be a powerful step toward feeling better."
+        ]
+      },
+      {
+        "tag": "positive_affirmations",
+        "patterns": [
+          "I need some encouragement.",
+          "Can you tell me something positive?",
+          "I feel like I need some hope.",
+          "Give me a reason to keep going.",
+          "Tell me something uplifting."
+        ],
+        "responses": [
+          "You are stronger than you know, and there is hope, even if it doesn’t feel like it right now. Remember that tough times do pass, and better days are ahead. Take things one day at a time—you’ve got this."
+        ]
+      }
+    ]
+  }
